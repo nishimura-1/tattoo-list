@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&family=Roboto+Slab&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Tattoo List</title>
+</head>
+<body>
+    <header>
+        <h1>TATTOO LIST</h1>
+    </header>
+    <form>
+        <input type="text" class="tattoo-input">
+        <button type="submit" class="tattoo-button">
+            <i class="fa-solid fa-skull"></i>
+        </button>
+        <div class="select">
+            <select name="tattoos" class="filter-tattoo">
+                <option value="all">All</option>
+                <option value="got">Got</option>
+                <option value="will-get">Will Get</option>
+            </select>
+        </div>
+    </form>
+    <div class="tattoo-container">
+        <ul class="tattoo-list"></ul>
+    </div>
+    
+</body>
+</html>
